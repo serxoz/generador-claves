@@ -2,6 +2,8 @@
 
 var rndm = require('seedrandom'); // substituto de Math.Random()
 
+// Recibe como parámetro la longitud de la clave
+// siendo 13 la longitud por defecto.
 function generarPass(long=13) {
     password = "";
 
@@ -33,4 +35,4 @@ function generarPass(long=13) {
     return password;
 }
 
-console.log(generarPass());
+console.log(generarPass(15));

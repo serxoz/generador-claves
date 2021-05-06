@@ -4,6 +4,12 @@ Genera contraseñas sin carácteres que se puedan confundir, como por ejemplo el
 
 Debido a que Math.Random() no se puede "seedear" usamos el módulo "seedrandom" aumentando la entropía con la hora actual.
 
+## Ejecución:
+```sh
+node index.js
+```
+
+
 ## Comprobación de colisión:
 
 Podemos probar si devuelve algún duplicado con el siguiente comando de shell:
